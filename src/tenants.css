@@ -1,0 +1,176 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    
+    nav ul li a:hover {
+    color: #ccc;
+    }
+    
+    main {
+    margin: 20px;
+    }
+    
+    .rental-portal {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    }
+    
+    .rental-portal h1 {
+    margin-top: 0;
+    }
+    
+    .rental-portal form {
+    margin-top: 20px;
+    }
+    
+    .rental-portal label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    .rental-portal input[type="text"],
+    .rental-portal input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    }
+    
+    .rental-portal input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .rental-portal input[type="submit"]:hover {
+    background-color: #444;
+    }
+    
+    .future-tenants {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    }
+    
+    .future-tenants h2 {
+    margin-top: 0;
+    }
+    
+    .future-tenants form {
+    margin-top: 20px;
+    }
+    
+    .future-tenants label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    .future-tenants input[type="text"],
+    .future-tenants input[type="email"],
+    .future-tenants input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    }
+    
+    .future-tenants input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .future-tenants input[type="submit"]:hover {
+    background-color: #444;
+    }
+    
+    .maintenance-request {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    }
+    
+    .maintenance-request h2 {
+    margin-top: 0;
+    }
+    
+    .maintenance-request form {
+    margin-top: 20px;
+    }
+    
+    .maintenance-request label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    .maintenance-request input[type="text"],
+    .maintenance-request textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    }
+    
+    .maintenance-request textarea {
+    height: 100px;
+    }
+    
+    .maintenance-request input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .maintenance-request input[type="submit"]:hover {
+    background-color: #444;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }

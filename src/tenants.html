@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tenants | Rental Property Management Portal</title>
+	<link rel="stylesheet" type="text/css" href="tenants.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="properties.html">Properties</a></li>
+				<li><a href="#" class="active">Tenants</a></li>
+				<li><a href="owners.html">Owners</a></li>
+				<li><a href="aboutUs.html">About Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="rental-portal">
+			<h1>Rental Portal</h1>
+			<p>Log in to your account to access your rental information, pay rent, and submit maintenance requests.</p>
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password">
+				<input type="submit" value="Log In">
+			</form>
+		</section>
+		<section class="future-tenants">
+			<h2>Sign Up for Future Rentals</h2>
+			<p>Fill out the form below to be notified of future rental opportunities.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone">
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+		<section class="maintenance-request">
+			<h2>Maintenance Request</h2>
+			<p>Fill out the form below to request maintenance for your rental unit.</p>
+			<form>
+				<label for="unit-number">Unit Number:</label>
+				<input type="text" id="unit-number" name="unit-number">
+				<label for="issue">Issue:</label>
+				<textarea id="issue" name="issue"></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Rental Property Management Portal. All rights reserved.</p>
+	</footer>
+</body>
+</html>

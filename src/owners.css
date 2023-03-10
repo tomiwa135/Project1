@@ -1,0 +1,93 @@
+/* Global Styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+}
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+nav li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	transition: background-color 0.3s ease-in-out;
+}
+nav li a:hover, nav li a.active {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Hero Styles */
+.hero {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hero h1 {
+	font-size: 4rem;
+	color: #fff;
+	text-shadow: 2px 2px #333;
+}
+
+/* Properties Styles */
+.properties {
+	margin: 2rem auto;
+	max-width: 1200px;
+}
+.properties h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.properties ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+}
+.properties li {
+	width: calc(33.33% - 1rem);
+	margin-bottom: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 0.25rem;
+	overflow: hidden;
+}
+.properties li a {
+	display: block;
+	text-align: center;
+	padding: 1rem;
+	color: #333;
+	text-decoration: none;
+}
+.properties li a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+footer p {
+	font-size: 0.8rem;
+}
